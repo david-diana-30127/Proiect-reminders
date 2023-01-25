@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  dianadb:
+    image: mariadb:10.7
+    ports:
+      - 3307:3306
+    volumes:
+      - ~/apps/mariadb:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=S3cret
+      - MYSQL_PASSWORD=An0thrS3crt
+      - MYSQL_USER=user
+      - MYSQL_DATABASE=db

@@ -1,0 +1,41 @@
+.reminder-card {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+
+
+.reminder-card-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.reminder-card-description {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.reminder-card-date {
+    font-size: 14px;
+    color: gray;
+}
+
+.checkbox-container {
+    float: right;
+    width: 35px;
+    height: 35px;
+}
+
+.checkbox {
+    width: 100%;
+    height: 100%;
+}
+
+.checkbox:checked {
+    accent-color: tomato;
+}
